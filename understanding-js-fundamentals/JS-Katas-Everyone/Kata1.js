@@ -5,8 +5,37 @@
 // Commit 3: "refactored variable names for clarity"
 
 
-for (let i = 1; i <= 20; i++) {
+for (let i = 1; i <= 20; i++)
   if (i % 2 === 0) {
     console.log(i);
   }
-}
+
+ 
+ 
+
+
+  //Commit 1: "scaffold loop structure"
+  //this is set up to print even numbers from 1 to 20
+ for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
+  }
+  
+  
+  //Commit 2: "added even number condition"
+  //added condition to check if number is even
+   for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
+  }
+  
+ 
+  
+  //Commit 3: "refactored variable names for clarity"
+  //used 'i' as the loop variable for simplicity and clarity
+  for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
